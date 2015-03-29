@@ -1,0 +1,31 @@
+{
+  "name": "passport-smartthings",
+  "version": "0.3.2",
+  "description": "A Passport.js OAuth 2.0 strategy for Smart Things",
+  "main": "lib/passport-smartthings",
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeff-blaisdell/passport-smartthings.git"
+  },
+  "keywords": [
+    "SmartThings",
+    "Passport",
+    "OAuth"
+  ],
+  "author": "Jeff Blaisdell",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/jeff-blaisdell/passport-smartthings/issues"
+  },
+  "homepage": "https://github.com/jeff-blaisdell/passport-smartthings",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "0.3.0"
+  },
+  "devDependencies": {
+    "vows": "~0.8.1"
+  }
+}
