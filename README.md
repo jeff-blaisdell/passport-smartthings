@@ -59,3 +59,8 @@ For example, this authorization requests permission to the app tied to the clien
         passport.authenticate('smartthings', { scope: ['app'] })
     );
 
+#### Profile
+
+The above configuration will populate the passport profile in session with the Smart Things access token and applicable api endpoints available to the logged in user for further api requests.  The endpoints are as described in Step 8 of the Web Services Smart App documentation found here [SmartApp Web Services Developers Guide](http://docs.smartthings.com/en/latest/smartapp-web-services-developers-guide/implementation.html).  For example usage checkout examples/app.js dashboard express route.
+
+

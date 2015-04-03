@@ -52,7 +52,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/dashboard', function(req, res){
-    console.log('My Smart Things profile', req.session.passport.user.profile);
+    console.log('My Smart Things profile', req.session.passport.user);
     res.render('dashboard', {});
 });
 
